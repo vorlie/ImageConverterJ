@@ -1,0 +1,63 @@
+.root {
+    -fx-background-color: #171B1E;
+    -fx-padding: 10px;
+
+}
+
+.button {
+    -fx-background-color: #3A444C;
+    -fx-background-radius: 7;
+    -fx-padding: 8 15;
+    -fx-text-fill: #C2C8CD;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial, sans-serif;
+
+}
+
+.button:hover {
+    -fx-background-color: #5D6C7A;
+}
+
+.label {
+    -fx-padding: 2 6;
+    -fx-background-color: #3A444C;
+    -fx-background-radius: 7;
+    -fx-font-size: 16px;
+    -fx-text-fill: #C2C8CD;
+}
+
+.combobox {
+    -fx-background-radius: 7;
+    -fx-padding: 2;
+    -fx-font-size: 14px;
+    -fx-text-fill: #C2C8CD;
+    -fx-background-color: #3A444C;
+}
+
+.combobox .arrow-button {
+    -fx-background-color: #3A444C;
+    -fx-background-radius: 0;
+}
+
+.combobox .text-field {
+    -fx-background-color: #3A444C;
+    -fx-text-fill: #C2C8CD !important;
+    -fx-font-size: 14px;
+}
+
+.combobox .list-view {
+    -fx-background-color: #3A444C;
+}
+
+#convertButton {
+    -fx-background-color: #3A444C;
+    -fx-background-radius: 7;
+    -fx-padding: 8 15;
+    -fx-text-fill: #C2C8CD;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial, sans-serif;
+}
+
+#convertButton:hover {
+    -fx-background-color: #5D6C7A;
+}
